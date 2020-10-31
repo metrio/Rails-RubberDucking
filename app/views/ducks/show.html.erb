@@ -1,0 +1,13 @@
+<p><%= @duck.name %></p>
+<p><%=  @duck.description %></p>
+
+
+<p><%=link_to "Update", edit_duck_path%></p>
+<%= button_to "Delete your Duck", duck_path, method: :delete  %>
+                <%# "ducks/:id" %>
+
+
+
+
+
+<p><%=link_to "Index", students_path%></p>
